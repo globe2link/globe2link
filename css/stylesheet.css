@@ -8,7 +8,9 @@
   width: device-width ;
   zoom: 1.0 ;
 }
-
+span{
+  margin-right: 10px;
+}
 body{
     height: 100%;
     width: 100%;
@@ -233,7 +235,7 @@ body{
 }
 .footer{
   width: 1366px;
-  height: 500px;
+  height: 450px;
   margin: auto;
   display: flex;
 }

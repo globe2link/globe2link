@@ -7,9 +7,7 @@
   width: device-width ;
   zoom: 1.0 ;
 }
-span{
-  margin-right: 10px;
-}
+
 body{
     height: 100%;
     width: 100%;
@@ -69,7 +67,6 @@ body{
   background-color: #f86a1e;
   align-content: center;
   margin: 70px 0px 0 0px;
-  font-weight: bold;
 }
 .price{
   width: 1366px;
@@ -87,13 +84,13 @@ body{
 }
 .price h1{
   font-size: 65px;
-  padding: 105px 0 0 0;
+  padding: 120px 0 0 0;
   font: 300 140px/0.1 'Great Vibes', Helvetica, sans-serif;
 }
 .glow {
   font-size: 65px;
   color: #f86a1e;
-  font: 300 140px/0.1 'Great Vibes', Helvetica, sans-serif;
+  font: 300 140px/0.2 'Great Vibes', Helvetica, sans-serif;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 3s ease-in-out infinite alternate;
@@ -103,81 +100,47 @@ body{
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f86a1e, 0 0 40px #f86a1e, 0 0 50px #f86a1e, 0 0 60px #f86a1e, 0 0 70px #f86a1e;
+  }
 }
-}
-.prc{
+.services{
+  height: 2000px;
   width: 1366px;
-  height: 1420px;
+  margin: auto;
 }
-.prce{
-  width: 1366px;
-  height: 670px;
+.serv{
   display: flex;
+  padding: 50px 50px 50px 100px;
 }
-#diamond{
-  margin-top: 165px;
-  height: 250px;
+.serv img{
+  height: 300px;
+  width: 500px;
 }
-.silver{
-  width: 400px;
-  height: 625px;
-  border: 3px solid #f86a1e;
-  margin: 50px 0 0 150px;
-  margin-right: 100px;
+.servp{
+  width: 550px;
+  margin-left: 100px;
 }
-.silver img{
-  height: 40px;
-  width: 40px;
-  margin: 20px 0 20px 80px;
+.servi{
+  margin-top: 50px;
 }
-.silver h2{
-  color: #f86a1e;
-  font-size: 36px;
-  font-family: 'Great Vibes', Helvetica, sans-serif;
-}
-.gld{
-  padding: 25px 0 20px 120px;
-}
-.silv{
-  padding: 25px 0 20px 100px;
-}
-.diamond{
-  padding: 25px 0 20px 90px;
-}
-.sed{
-  padding: 25px 0 20px 140px;
-}
-.gold{
-  height: 735px;
-}
-.seo {
-  height: 690px
-}
-.silver h3{
-  padding: 25px 0 0 20px;
-  text-align: center;
-  font-size: 28px;
-  color: #f86a1e;
-  font-family: 'Great Vibes', Helvetica, sans-serif;
-}
-.silver ul{
-  display: flex;
-}
-.silver ul img{
-  height: 25px;
-  width: 25px;
-  margin: 20px 0 0 20px;
-}
-.silver ul p{
-  padding: 18px 0 0 20px;
-  font-size: 24px;
+.serv div p{
+  width: 550px;
   color: gray;
 }
-
-.sil{
-  display: flex;
-  border-top: 3px solid #f86a1e;
-  border-bottom: 3px solid #f86a1e;
+.serv h2{
+  font-size: 40px;
+  text-decoration: underline;
+}
+.design{
+  margin-right: 100px;
+  padding-top: 60px;
+}
+.deve{
+  margin-left: 100px;
+  padding-top: 30px;
+}
+.seo{
+  margin-right: 70px;
+  padding-top: 10px;
 }
 .footer{
   width: 1366px;
@@ -197,7 +160,7 @@ body{
   width: 700px;
 }
 .our ul {
-  margin-right: 50px;
+  margin-right: 30px;
   line-height: 45px;
 }
 .our ul li a{
@@ -233,10 +196,12 @@ body{
   width: 420px;
 }
 .copy{
-  color: #f86a1e;
+  color: #f8945e;
   padding-left: 450px;
-  margin: auto;
 }
 strong{
   color: #f86a1e;
+}
+span{
+  margin-right: 10px;
 }
