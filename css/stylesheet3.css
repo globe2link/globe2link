@@ -28,180 +28,191 @@ body{
     color: black;
     font-size:16px;
   }
+@media screen and (min-width:1200px) {
+    /* header */
+  .header{
+    width: 1366px;
+    height: 120px;
+    margin: auto;
+    position: fixed;
+    background-color: white;
+    display: flex;
+  }
+  .header h1 img{
+    height: 90px;
+    width: 90px;
+    padding: 20px 50px ;
+  }
+  .header nav ul {
+    display: flex;
+    padding: 0px 50px 0 300px;
+  }
+  .header nav ul li a{
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    padding: 75px 12px 0 12px;
+  }
+  .header nav ul li:first-child{
+    background-color: #f86a1e;
+    align-content: center;
+    padding: 70px 10px 0 10px;
+  }
+  .header nav ul li {
+    align-content: center;
+    padding : 70px 30px 0 30px;
+  }
+  .header nav ul li :hover{
+    background-color: #f86a1e;
+    align-content: center;
+    margin: 70px 0px 0 0px;
+  }
+  .price{
+    width: 1366px;
+    height: 200px;
+    margin: auto;
+    padding-top: 120px;
+    background-image: url(../images/service.jpg);
+    background-size: cover;
+  }
+  .pricing{
+    width: 1366px;
+    height: 200px;
+    margin: auto;
+    background-color: rgba(255,140,0,0.6);
+  }
+  .price h1{
+    font-size: 135px;
+    padding: 10px 0 0 0;
+    font-family: "Brush Script MT";
+  }
+  .glow {
+    font-size: 65px;
+    color: #f86a1e;
+    font-family: "Brush Script MT";
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
 
-  /* header */
-.header{
-  width: 1366px;
-  height: 120px;
-  margin: auto;
-  position: fixed;
-  background-color: white;
-  display: flex;
-}
-.header h1 img{
-  height: 90px;
-  width: 90px;
-  padding: 20px 50px ;
-}
-.header nav ul {
-  display: flex;
-  padding: 0px 50px 0 300px;
-}
-.header nav ul li a{
-  height: 50px;
-  font-size: 20px;
-  color: black;
-  cursor: pointer;
-  padding: 75px 12px 0 12px;
-}
-.header nav ul li:first-child{
-  background-color: #f86a1e;
-  align-content: center;
-  padding: 70px 10px 0 10px;
-}
-.header nav ul li {
-  align-content: center;
-  padding : 70px 30px 0 30px;
-}
-.header nav ul li :hover{
-  background-color: #f86a1e;
-  align-content: center;
-  margin: 70px 0px 0 0px;
-}
-.price{
-  width: 1366px;
-  height: 200px;
-  margin: auto;
-  padding-top: 120px;
-  background-image: url(../images/service.jpg);
-  background-size: cover;
-}
-.pricing{
-  width: 1366px;
-  height: 200px;
-  margin: auto;
-  background-color: rgba(255,140,0,0.6);
-}
-.price h1{
-  font-size: 135px;
-  padding: 10px 0 0 0;
-  font-family: "Brush Script MT";
-}
-.glow {
-  font-size: 65px;
-  color: #f86a1e;
-  font-family: "Brush Script MT";
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 3s ease-in-out infinite alternate;
-  animation: glow 3s ease-in-out infinite alternate;
-}
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f86a1e, 0 0 40px #f86a1e, 0 0 50px #f86a1e, 0 0 60px #f86a1e, 0 0 70px #f86a1e;
+    }
+  }
+  .services{
+    height: 2000px;
+    width: 1366px;
+    margin: auto;
+  }
+  .serv{
+    display: flex;
+    padding: 50px 50px 50px 100px;
+  }
+  .serv img{
+    height: 300px;
+    width: 500px;
+  }
+  .servp{
+    width: 550px;
+    margin-left: 100px;
+  }
+  .servi{
+    margin-top: 50px;
+  }
+  .serv div p{
+    width: 550px;
+    color: gray;
+  }
+  .serv h2{
+    font-size: 40px;
+    text-decoration: underline;
+  }
+  .design{
+    margin-right: 100px;
+    padding-top: 60px;
+  }
+  .deve{
+    margin-left: 100px;
+    padding-top: 30px;
+  }
+  .seo{
+    margin-right: 70px;
+    padding-top: 10px;
+  }
+  .footer{
+    width: 1366px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+  }
+  .footer article{
+    height: auto;
+    width: 400px;
+    margin: 50px;
+  }
 
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f86a1e, 0 0 40px #f86a1e, 0 0 50px #f86a1e, 0 0 60px #f86a1e, 0 0 70px #f86a1e;
+  .our{
+    display: flex;
+    margin-top: 20px;
+    width: 700px;
+  }
+  .our ul {
+    margin-right: 30px;
+    line-height: 45px;
+  }
+  .our ul li a{
+    color: #f86a1e;
+  }
+  .about {
+    display: flex;
+  }
+  .about h3:last-child{
+    color: #f86a1e;
+    padding-left: 10px;
+  }
+  .footer article p{
+    padding-top: 20px;
+    color: gray;
+  }
+  .icon {
+    padding-left: 100px;
+  }
+  .icon button{
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    background-color: #f86a1e;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .icon a{
+      margin-right: 20px;
+  }
+  .footer article:last-child{
+    font-size: 15px;
+    width: 420px;
+  }
+  .copy{
+    color: #f8945e;
+    padding-left: 450px;
+  }
+  strong{
+    color: #f86a1e;
+  }
+  span{
+    margin-right: 10px;
   }
 }
-.services{
-  height: 2000px;
-  width: 1366px;
-  margin: auto;
-}
-.serv{
-  display: flex;
-  padding: 50px 50px 50px 100px;
-}
-.serv img{
-  height: 300px;
-  width: 500px;
-}
-.servp{
-  width: 550px;
-  margin-left: 100px;
-}
-.servi{
-  margin-top: 50px;
-}
-.serv div p{
-  width: 550px;
-  color: gray;
-}
-.serv h2{
-  font-size: 40px;
-  text-decoration: underline;
-}
-.design{
-  margin-right: 100px;
-  padding-top: 60px;
-}
-.deve{
-  margin-left: 100px;
-  padding-top: 30px;
-}
-.seo{
-  margin-right: 70px;
-  padding-top: 10px;
-}
-.footer{
-  width: 1366px;
-  height: 450px;
-  margin: auto;
-  display: flex;
-}
-.footer article{
-  height: auto;
-  width: 400px;
-  margin: 50px;
+
+
+@media screen and (min-width:769px) and (max-width:1199px) {
+
 }
 
-.our{
-  display: flex;
-  margin-top: 20px;
-  width: 700px;
-}
-.our ul {
-  margin-right: 30px;
-  line-height: 45px;
-}
-.our ul li a{
-  color: #f86a1e;
-}
-.about {
-  display: flex;
-}
-.about h3:last-child{
-  color: #f86a1e;
-  padding-left: 10px;
-}
-.footer article p{
-  padding-top: 20px;
-  color: gray;
-}
-.icon {
-  padding-left: 100px;
-}
-.icon button{
-  height: 30px;
-  width: 100px;
-  margin-left: 10px;
-  background-color: #f86a1e;
-  font-size: 16px;
-  cursor: pointer;
-}
-.icon a{
-    margin-right: 20px;
-}
-.footer article:last-child{
-  font-size: 15px;
-  width: 420px;
-}
-.copy{
-  color: #f8945e;
-  padding-left: 450px;
-}
-strong{
-  color: #f86a1e;
-}
-span{
-  margin-right: 10px;
+
+@media screen and (max-width:768px) {
+
 }
