@@ -71,7 +71,7 @@ body{
     align-content: center;
     margin: 70px 0px 0 0px;
   }
-  .dropbtn {
+  .dropdown {
      margin: 15px 16px;
      width: 30px;
      height: 30px;
@@ -353,16 +353,7 @@ body{
     align-content: center;
     margin: 70px 0px 0 0px;
   }
-  .dropbtn {
-     margin: 15px 16px;
-     width: 30px;
-     height: 30px;
-     float: right;
-     background-color: #202020;
-     color: #fff;
-     border: none;
-     font-size: 30px;
-     transition: height 0.3s linear 0s;
+  .dropdown {
      display: none;
    }
    .dropdown-content{
