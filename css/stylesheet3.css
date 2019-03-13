@@ -73,7 +73,7 @@ body{
   height: 200px;
   margin: auto;
   padding-top: 120px;
-  background-image: url(../images/price.jpg);
+  background-image: url(../images/service.jpg);
   background-size: cover;
 }
 .pricing{
@@ -83,8 +83,8 @@ body{
   background-color: rgba(255,140,0,0.6);
 }
 .price h1{
-  font-size: 65px;
-  padding: 120px 0 0 0;
+  font-size: 135px;
+  padding: 10px 0 0 0;
   font-family: "Brush Script MT";
 }
 .glow {
