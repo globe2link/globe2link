@@ -608,16 +608,20 @@ body{
     font-family: "Brush Script MT";
   }
   .gld{
-    padding: 25px 0 20px 100px;
+    text-align: center;
+    margin: 20px;
   }
   .silv{
-    padding: 25px 0 20px 80px;
+    text-align: center;
+    margin: 20px;
   }
   .diamond{
-    padding: 25px 0 20px 75px;
+    text-align: center;
+    margin: 20px;
   }
   .sed{
-    padding: 25px 0 20px 150px;
+    text-align: center;
+    margin: 20px;
   }
   .gold{
     height: 735px;
