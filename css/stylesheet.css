@@ -681,9 +681,7 @@ body{
 
 
   .banner{
-    height: 600px;
     width: 100%;
-    margin: auto;
     background-image: url(../images/3.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -695,7 +693,11 @@ body{
     text-align: center;
   }
   .bang img{
-    margin: 175px 0 0 180px;
+    padding: 155px 50px 0 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   .banner h2{
     padding: 0 50px 0 50px;
@@ -705,7 +707,6 @@ body{
   .text{
     padding: 0px 50px 0 80px;
     text-align: center;
-    display: flex;
   }
   .text p a{
     margin-right: 20px;
@@ -857,14 +858,14 @@ body{
   }
 
   .our{
-    display: flex;
     margin-top: 20px;
   }
   .our ul {
-    margin-right: 50px;
+    margin-right: 30px;
     line-height: 45px;
   }
   .our ul li a{
+    font-size: 10px;
     color: #f86a1e;
   }
   .about {
@@ -897,7 +898,7 @@ body{
   }
   .copy{
     color: #f8945e;
-    padding: 50px 0 0 50px;
+    padding: 0px 30px 0 30px;
     text-align: center;
   }
   strong{
