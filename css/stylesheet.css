@@ -324,13 +324,13 @@ body{
     width: 80px;
     padding: 20px 50px ;
   }
+  .header nav{
+    display: block;
+    margin: auto;
+  }
   .header nav ul {
-
     height: 100px;
     display: flex;
-    margin: 0px 30px 0px 30px;
-    right: 6%;
-    float: right;
   }
   .header nav ul li a{
     height: 50px;
@@ -544,9 +544,8 @@ body{
   }
 
   .our{
-
     margin-top: 20px;
-    width: 700px;
+    width: 250px;
   }
   .our ul {
     margin-right: 50px;
