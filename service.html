@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/stylesheet3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' ty>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/G2L.jpg" type="" sizes="16x16">
   </head>
   <body>
@@ -21,6 +23,18 @@
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </nav>
+        <div class="dropdown">
+          <button onclick="$('.dropdown-content').toggle();" class="fa fa-bars dropbtn "></button>
+          <div class="dropdown-content target" id="myDropdown">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="page1.html">About us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -36,24 +50,26 @@
         </article>
         <article class="serv">
           <div class="design">
+            <img class="desn" src="images/webdesign.png" alt="">
             <h2>WEB DESIGNING</h2>
             <p><strong>Globe2Link Technologies</strong> is known as the best Web designing and development company based in chennai, offering huge qualified range of services in  Website Designing,- on all major Frameworks...,we have best and qualified web designers , who can approach your thinking and design your ideas of your wider business</p>
           </div>
-          <img src="images/webdesign.png" alt="">
+          <img class="desnp" src="images/webdesign.png" alt="">
         </article>
         <article class="serv">
-          <img src="images/webdev.jpg" alt="">
+          <img class="dev" src="images/webdev.jpg" alt="">
           <div class="deve">
             <h2>WEB DEVELOPMENT</h2>
             <p><strong>Globe2Link Technologies</strong> development process is collaborative and cost-effective, ensuring you get the result your company really needs, within your time and budget constraints. Turn your website into more than just an online brochure and provide another level of service to your customers.</p>
           </div>
         </article>
         <article class="serv">
+          <img class="seoi" src="images/digitalmarketing.png" alt="">
           <div class="seo">
             <h2>SEO</h2>
             <p><strong>Globe2Link Technologies</strong> is the Most Affordable SEO Company In chennai that can fit to your budget. we consider each clients as an asset of our company so no matter how small, medium or big business, we always give the best to provide 100% satisfaction to our beloved clients. Our Seo analyst help you to choose the right and best keywords that can be added to your website. We give our guarantee as first page confirmation with in 3months with unlimited keywords on google search.</p>
           </div>
-          <img src="images/digitalmarketing.png" alt="">
+          <img class="seop"src="images/digitalmarketing.png" alt="">
         </article>
       </div>
     </main>

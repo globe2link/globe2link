@@ -333,6 +333,7 @@ body{
   }
   .prce{
     width: 100%;
+    display: flex;
   }
   #diamond{
     margin-top: 165px;
@@ -560,8 +561,9 @@ body{
     background-color: rgba(255,140,0,0.6);
   }
   .price h1{
-    font-size: 135px;
-    padding: 10px 0 0 0;
+    font-size: 85px;
+    text-align: center;
+    padding-top: 50px;
     font-family: "Brush Script MT";
   }
   .glow {
@@ -590,8 +592,6 @@ body{
     height: 250px;
   }
   .silver{
-    width: 400px;
-    height: 625px;
     border: 3px solid #f86a1e;
     display: block;
     margin: auto;
