@@ -85,12 +85,12 @@ body{
 .price h1{
   font-size: 65px;
   padding: 120px 0 0 0;
-  font: 300 140px/0.1 'Great Vibes', Helvetica, sans-serif;
+  font-family: "Brush Script MT";
 }
 .glow {
   font-size: 65px;
   color: #f86a1e;
-  font: 300 140px/0.2 'Great Vibes', Helvetica, sans-serif;
+  font-family: "Brush Script MT";
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 3s ease-in-out infinite alternate;
