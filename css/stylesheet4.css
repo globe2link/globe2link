@@ -439,9 +439,7 @@ body{
     margin: auto;
   }
   .contact img{
-    height: 380px;
-    width: 400px;
-    padding-left: 30px;
+    height: 200px;
   }
   .cont article{
     display: flex;
