@@ -311,12 +311,12 @@ body{
   .price h1{
     font-size: 135px;
     padding: 10px 0 0 0;
-    font-family: "Brush Script MT";
+    font-family: 'Mr Bedfort', cursive;
   }
   .glow {
     font-size: 65px;
     color: #f86a1e;
-    font-family: "Brush Script MT";
+    font-family: 'Mr Bedfort', cursive;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 3s ease-in-out infinite alternate;
@@ -564,12 +564,12 @@ body{
     font-size: 85px;
     text-align: center;
     padding-top: 50px;
-    font-family: "Brush Script MT";
+    font-family: 'Mr Bedfort', cursive;
   }
   .glow {
     font-size: 65px;
     color: #f86a1e;
-    font-family: "Brush Script MT";
+    font-family: 'Mr Bedfort', cursive;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 3s ease-in-out infinite alternate;
