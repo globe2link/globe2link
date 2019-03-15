@@ -234,7 +234,7 @@ body{
     padding: 10px 0 0 550px;
     color: white;
   }
-  .contact button{
+  .contact button {
     margin: 10px 0 0 610px;
     height: 30px;
     width: 120px;
@@ -244,6 +244,12 @@ body{
     border-width: 1px;
     border-color: #f86a1e;
     cursor: pointer;
+  }
+  .contact button a{
+    color: white;
+  }
+  .contact button b{
+    margin-right: 5px;
   }
   .contact button:hover{
     background-color: #f86a1e;
@@ -508,7 +514,12 @@ body{
     background-image: url(../images/office.jpg);
     background-attachment: fixed;
     background-size: cover;
-
+  }
+  .contact button a{
+    color: white;
+  }
+  .contact button b{
+    margin-right: 5px;
   }
   .contact h2{
     padding: 50px 0 0 300px;
@@ -823,7 +834,12 @@ body{
     background-image: url(../images/office.jpg);
     background-attachment: fixed;
     background-size: cover;
-
+  }
+  .contact button a{
+    color: white;
+  }
+  .contact button b{
+    margin-right: 5px;
   }
   .contact h2{
     padding: 30px 30px 0px 30px;
