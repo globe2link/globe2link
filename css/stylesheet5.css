@@ -1,0 +1,205 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+  }
+  .cf{
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  a,img {
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  body{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: black;
+    font-size:16px;
+  }
+@media screen and (min-width:1200px) {
+    /* header */
+  .header{
+    width: 1366px;
+    height: 120px;
+    margin: auto;
+    position: fixed;
+    background-color: white;
+    display: flex;
+  }
+  .header h1 img{
+    height: 90px;
+    width: 90px;
+    padding: 20px 50px ;
+  }
+  .header nav ul {
+    display: flex;
+    padding: 0px 50px 0 200px;
+  }
+  .header nav ul li a{
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    padding: 75px 12px 0 12px;
+  }
+  .header nav ul li:first-child{
+    background-color: #f86a1e;
+    align-content: center;
+    padding: 70px 10px 0 10px;
+  }
+  .header nav ul li {
+    align-content: center;
+    padding : 70px 30px 0 30px;
+  }
+  .header nav ul li :hover{
+    background-color: #f86a1e;
+    align-content: center;
+    margin: 70px 0px 0 0px;
+  }
+  .dropdown{
+    display: none;
+  }
+  .price{
+    width: 1366px;
+    height: 200px;
+    margin: auto;
+    padding-top: 120px;
+    background-image: url(../images/career.jpg);
+    background-size: cover;
+  }
+  .pricing{
+    width: 1366px;
+    height: 200px;
+    margin: auto;
+    background-color: rgba(255,140,0,0.6);
+  }
+  .price h1{
+    font-size: 135px;
+    padding: 10px 0 0 0;
+    font-family: 'Mr Bedfort', cursive;
+  }
+  .glow {
+    font-size: 65px;
+    color: #f86a1e;
+    font-family: 'Mr Bedfort', cursive;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f86a1e, 0 0 40px #f86a1e, 0 0 50px #f86a1e, 0 0 60px #f86a1e, 0 0 70px #f86a1e;
+    }
+  }
+  .careers{
+    display: flex;
+  }
+  .careers article{
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .careers article img{
+    width: 400px;
+  }
+  .careers article h2{
+    text-decoration: underline;
+    padding-left: 10px;
+  }
+  .careers article p{
+    color: gray;
+    padding-left: 10px;
+  }
+  .contacts article{
+    display: flex;
+  }
+  .contacts article p a{
+    padding: 00px 0 0 80px;
+    color: gray;
+  }
+  .contacts article img{
+    height: 30px;
+    width: 30px;
+  }
+  .cont{
+    font-size: 30px;
+  }
+  .footer{
+    width: 1366px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+  }
+  .footer article{
+    height: auto;
+    width: 400px;
+    margin: 50px;
+  }
+
+  .our{
+    display: flex;
+    margin-top: 20px;
+    width: 700px;
+  }
+  .our ul {
+    margin-right: 30px;
+    line-height: 45px;
+  }
+  .our ul li a{
+    color: #f86a1e;
+  }
+  .about {
+    display: flex;
+  }
+  .about h3:last-child{
+    color: #f86a1e;
+    padding-left: 10px;
+  }
+  .footer article p{
+    padding-top: 20px;
+    color: gray;
+  }
+  .icon {
+    padding-left: 100px;
+  }
+  .icon button{
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    background-color: #f86a1e;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .icon a{
+      margin-right: 20px;
+  }
+  .footer article:last-child{
+    font-size: 15px;
+    width: 420px;
+  }
+  .copy{
+    color: #f8945e;
+    padding-left: 450px;
+  }
+  strong{
+    color: #f86a1e;
+  }
+  span{
+    margin-right: 10px;
+  }
+}
