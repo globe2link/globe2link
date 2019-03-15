@@ -254,6 +254,9 @@ body{
       display: flex;
       padding: 20px;
     }
+    .cont article p{
+      margin-top: 5px;
+    }
     .cont{
       padding-top: 70px;
     }
@@ -449,6 +452,9 @@ body{
   }
   .cont{
     padding-top: 70px;
+  }
+  .cont article p{
+    margin-top: 5px;
   }
   .cont article img{
     height: 30px;
