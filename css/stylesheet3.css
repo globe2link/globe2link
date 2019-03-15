@@ -68,6 +68,9 @@ body{
     align-content: center;
     margin: 70px 0px 0 0px;
   }
+  .dropdown{
+    display: none;
+  }
   .price{
     width: 1366px;
     height: 200px;
