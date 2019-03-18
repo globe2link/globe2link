@@ -118,12 +118,16 @@ body{
   .careers article p{
     color: gray;
     padding-left: 10px;
+    cursor: pointer;
+  }
+  #gmail{
+    padding-left: 10px;
   }
   .contacts div{
     display: flex;
   }
   .contacts div p a{
-    padding: 00px 0 0 80px;
+    padding: 00px 0 0 40px;
     color: gray;
   }
   .contacts div img{
@@ -304,7 +308,7 @@ body{
     display: flex;
   }
   .contacts div p a{
-    padding: 00px 0 0 80px;
+    padding: 00px 0 0 40px;
     color: gray;
   }
   .contacts div img{
