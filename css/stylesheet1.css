@@ -36,7 +36,7 @@ body{
     background-color: white;
     display: flex;
   }
-  .header h1 img{
+  .header img{
     height: 90px;
     width: 90px;
     padding: 20px 50px ;
@@ -211,7 +211,7 @@ body{
   background-color: white;
   display: flex;
 }
-.header h1 img{
+.header  img{
   height: 80px;
   width: 80px;
   padding: 20px 50px ;

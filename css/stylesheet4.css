@@ -79,19 +79,19 @@ body{
     width: 500px;
     padding-left: 50px;
   }
-  .cont article{
+  .cont div{
     display: flex;
     padding: 20px;
   }
   .cont{
     padding-top: 70px;
   }
-  .cont article img{
+  .cont div img{
     height: 30px;
     width: 30px;
     margin-right: 30px;
   }
-  .cont article p{
+  .cont div p{
     margin-top: 5px;
   }
   .text-success{
@@ -112,7 +112,7 @@ body{
     width: 30px;
     margin-right: 16px;
   }
-  .cont article p a{
+  .cont div p a{
     margin-right: 20px;
     color: black;
   }
@@ -246,17 +246,17 @@ body{
       width: 400px;
       padding-left: 30px;
     }
-    .cont article{
+    .cont div{
       display: flex;
       padding: 20px;
     }
-    .cont article p{
+    .cont div p{
       margin-top: 5px;
     }
     .cont{
       padding-top: 70px;
     }
-    .cont article img{
+    .cont div img{
       height: 30px;
       width: 30px;
       margin-right: 30px;
@@ -280,7 +280,7 @@ body{
       width: 30px;
       margin-right: 16px;
     }
-    .cont article p a{
+    .cont div p a{
       margin-right: 20px;
       color: black;
     }
@@ -442,17 +442,17 @@ body{
   .contact img{
     height: 200px;
   }
-  .cont article{
+  .cont div{
     display: flex;
     padding: 20px;
   }
   .cont{
     padding-top: 70px;
   }
-  .cont article p{
+  .cont div p{
     margin-top: 5px;
   }
-  .cont article img{
+  .cont div img{
     height: 30px;
     width: 30px;
     margin-right: 30px;
@@ -476,7 +476,7 @@ body{
     width: 30px;
     margin-right: 16px;
   }
-  .cont article p a{
+  .cont div p a{
     margin-right: 20px;
     color: black;
   }
