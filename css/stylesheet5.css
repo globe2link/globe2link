@@ -519,7 +519,7 @@ body{
     display: flex;
   }
   .contacts div p a{
-    padding: 00px 0 0 80px;
+    padding: 00px 0 0 10px;
     color: gray;
   }
   .contacts div img{
